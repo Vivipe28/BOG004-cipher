@@ -6,9 +6,83 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+<div id="principal">
+  <section class="principal">
+    <div class="imagen">
+    <img src="libertario.png" alt="logo" id="logo">
+  </div>
+    
+    <div class="registro"> 
+      <div class="formato">
+    <form action="" method="post">
+        <div class="grupo">
+            <input type="text" name="Nombre" id="name" autocomplete="off"> <span class="barra"></span>
+            <label for="">Nombre</label>
+        </div>
+        <div class="grupo">
+         <input type="password" name="Nombre" id="password"> <span class="barra"></span>
+         <label for="">Contraseña</label>
+     </div>
+    </form>
+  </div>
+  <input type="button" value="Ingresar" id="boton">
     </div>
+
+  </section>
+  <h1>Todos los derechos reservados®</h1>
+</div>
+<div id = "main">
+  <section  class="main">
+    <div class="seccion">
+  
+      <h2>CODIFICAR</h2>
+
+      <p>Selecciona el valor de cifrado</p>
+
+      <input type="number" name="numero" id="desplazamiento" >
+    
+      <p> el texto a cifrar </p>
+
+      <textarea name="letter" id="texto" cols="30" rows="10"></textarea>
+  <div>
+      <input type="button" value="Cifrar" id="enviar">
+    </div>
+      <div>
+      <textarea name="output" id="textoCifrado" cols="30" rows="10" ></textarea>
+    </div>
+ 
+        <input type="button" value="Limpiar" id="reset">
+        <button id ="copy">Copiar</button>
+      
+    </div>
+    <div class="seccion">
+      
+      <h2>DECODIFICAR</h2>
+
+      <p>Selecciona el valor de decifrado</p>
+
+      <input type="number" name="numero1" id="desplazamiento1">
+    
+     <p> Digita el texto a decifrar</p>
+
+      <textarea name="texto" id="texto1" cols="30" rows="10"></textarea>
+  <div>
+      <button type="submit" id="enviar1">Decifrar</button>
+    </div>
+      <div>
+        <textarea name="output1" id="textoDecifrado" cols="30" rows="10"></textarea>
+      </div>
+      
+       <input type="button" value="Limpiar" id="reset1">
+        <button id ="copy1">Copiar</button>
+     
+    </div>
+  </section>
+  <div class="salida">
+    <button id="exit">Salir</button>
+  </div>
+</div>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
