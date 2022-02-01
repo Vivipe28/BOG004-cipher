@@ -2,7 +2,8 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+
+* [1. Definición del producto](#1-definicion-del-producto)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
@@ -14,32 +15,26 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Definición del producto
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+La aplicación web tiene por objetivo brindar un espacio seguro de codificación y decodificación de textos mediante el uso de la metodología de cifrado César.  El cifrado César es una de las técnicas más simples para cifrar un mensaje. Es un tipo de codificación por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto. Por ejemplo:
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+•	La letra A se cifraría como la C si usamos un desplazamiento de dos posiciones.
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
+•	La palabra HOLA se cifraría como JQNC si nos desplazamos dos puestos.
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+USUARIOS
 
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+Mi proyecto se orienta principalmente a satisfacer la necesidad de seguridad y confidencialidad de los periodistas en situaciones de riesgo. La labor periodística requiere de la implementación de diferentes técnicas que les permita a los comunicadores compartir información entre ellos sin que esta logre filtrarse antes de que decidan publicarla. La plataforma que he diseñado responde a este imperativo propio de su profesión.
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
+OBJETIVO DE LOS USUARIOS
+
+Los periodistas que decidan hacer uso de mi plataforma podrán cifrar los textos que deseen y podrán definir a su discreción el offset (desplazamiento) de cifrado. De igual manera tienen a su disposición la posibilidad de descifrar los textos que les sean enviados. Para dicho propósito la sección de decodificación funciona de la misma manera que la de codificación. 
+
+VENTAJAS DE LA APLICACIÓN
+
+Compartir información entre ellos se podrá realizar de una manera un poco más segura ya que el texto interceptado se encontrará cifrado y quien lo intercepte tendrá que conocer no sólo la técnica de cifrado sino el desplazamiento fijado por el autor. Información que sólo las partes interesadas tendrán en su poder.
+
 
 ## 2. Resumen del proyecto
 
