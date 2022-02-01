@@ -4,7 +4,7 @@
 
 
 * [1. Definición del producto](#1-definicion-del-producto)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2. Instrucciones de uso](#2-instrucciones-de-uso)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -36,26 +36,18 @@ VENTAJAS DE LA APLICACIÓN
 Compartir información entre ellos se podrá realizar de una manera un poco más segura ya que el texto interceptado se encontrará cifrado y quien lo intercepte tendrá que conocer no sólo la técnica de cifrado sino el desplazamiento fijado por el autor. Información que sólo las partes interesadas tendrán en su poder.
 
 
-## 2. Resumen del proyecto
+## 2. Instrucciones de uso
 
-En este proyecto crearás una aplicación web que servirá para que el usuario
-pueda cifrar y descifrar un texto indicando un desplazamiento específico de
-caracteres (_offset_).
+Para poder hacer uso de la plataforma se deben seguir los siguientes pasos:
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
+1.	Dirígete a [PORTADA] (https://vivipe28.github.io/BOG004-cipher/src/index.html)
+2.	Digita el nombre y la contraseña correspondiente y haz click en el botón "INGRESAR".
+3.	Ingresa el offset deseado ya sea para cifrar o descifrar.
+4.	En el cuadro de texto que está debajo del input del offset introduce el texto a cifrar.
+5.	Da click al botón “CIFRAR” para ejecutar el proceso de cifrado
+6.	Listo! En el cuadro de texto inferior obtienes el texto cifrado
+7.	El procedimiento es el mismo para el proceso de decodificación.
 
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
-
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
 
 ## 3. Objetivos de aprendizaje
 
