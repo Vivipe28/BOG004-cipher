@@ -19,7 +19,7 @@
 
 La aplicación web tiene por objetivo brindar un espacio seguro de codificación y decodificación de textos mediante el uso de la metodología de cifrado César.  El cifrado César es una de las técnicas más simples para cifrar un mensaje. Es un tipo de codificación por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto. Por ejemplo:
 
-•	La letra A se cifraría como la C si usamos un desplazamiento de dos posiciones.
+•	La letra A se cifraría como la C si usamos un desplazamiento de dos posiciones. Viviana.
 
 •	La palabra HOLA se cifraría como JQNC si nos desplazamos dos puestos.
 
